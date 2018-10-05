@@ -1,7 +1,6 @@
 class CreateActors < ActiveRecord::Migration
   def change
-    create_table :shows do |t|
-      #primary key of :id is created for us!
+    create_table :actors do |t|
       t.string :name
     end
   end
